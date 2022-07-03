@@ -1,0 +1,33 @@
+{
+  "name": "auth-app-dev-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertstevencastillo/auth-app-dev-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertstevencastillo/auth-app-dev-challenge/issues"
+  },
+  "homepage": "https://github.com/robertstevencastillo/auth-app-dev-challenge#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "dayjs": "^1.11.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2",
+    "pino": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "pino-pretty": "^8.1.0"
+  }
+}
