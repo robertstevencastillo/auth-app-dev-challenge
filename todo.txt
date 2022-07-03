@@ -10,3 +10,6 @@ User story: I can upload a new photo or provide an image URL
 Icon: https://google.github.io/material-design-icons/
 
 Following This Video: Build an Authentication API with Node.js, TypeScript, Typegoose, ExpressJS & Zod - https://youtu.be/qylGaki0JhY
+
+
+Api user pass = user_api

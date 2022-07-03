@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/robertstevencastillo/auth-app-dev-challenge#readme",
   "dependencies": {
+    "argon2": "^0.28.7",
     "config": "^3.3.7",
     "dayjs": "^1.11.3",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "mongodb": "^4.7.0",
     "mongoose": "^6.4.2",
     "pino": "^8.1.0"
   },

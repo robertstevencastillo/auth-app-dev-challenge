@@ -9,6 +9,7 @@ const app = express()
 const port = config.get('defaultConfig.port')
 
 // MIDDLEWARES
+app.use(express.json());
 app.use(router)
 
 app.listen(port, () => {
@@ -16,5 +17,5 @@ app.listen(port, () => {
   
 
   // TODO: Uncomment once you've setup a mongoDB database for this project
-  // connectToDb()
+  connectToDb()
 })
